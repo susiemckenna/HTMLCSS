@@ -1,0 +1,61 @@
+* {margin: 0;
+    padding: 0;
+}
+header {
+    height: 6vh;
+    margin: 20px;
+}
+header h1 {
+    color: #FF8939;
+}
+header h6 {
+    font-size: 14px;
+    color: #C3A5B3;
+    font-family: monospace;
+}
+a {
+    color: #ff8939;
+}
+nav {
+    border-top: dashed 1px #C3A5B3;
+    border-bottom: dashed 1px #C3A5B3;
+    width: 100vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+}
+nav ul li:hover {
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+body {
+    background-color: #1B1A16;
+    font-family: "Roboto Mono", sans-serif;
+}
+#post {
+    font-size: 16px;
+    margin: 20px;
+    margin-top: 0;
+}
+#main {
+    font-size: 26px;
+}
+.subject {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #FF8939;
+    margin-bottom: 10px;
+}
+.info { 
+    color: #C3A5B3;
+    font-family: monospace;
+}
